@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -31,9 +32,28 @@
     </style>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <div class="container">
+      <div class="card">
+        <div class="card-stats">
+          <h1 class="headline">
+            Get <span class="accent">insights</span> that help your business
+            grow.
+          </h1>
+          <p class="details">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <p class="stats 1"><span class="num">10k+</span> <br />companies</p>
+          <p class="stats 2"><span class="num">314</span><br />templates</p>
+          <p class="stats 3"><span class="num">12m+ </span><br />queries</p>
+        </div>
+        <!-- <div class="overlay"></div> -->
+        <img
+          src="/images/image-header-desktop.jpg"
+          alt="a group of people working together"
+        />
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by
